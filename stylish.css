@@ -1,0 +1,137 @@
+@import 'utils.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary: #2eb086;
+  --dark: #313552;
+  --light: #f0f0f0;
+  --tertiary: #b8405e;
+  --pure: #ffffff;
+  --mix : #54BAB9
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+span {
+  color: var(--primary);
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    }
+    header {
+			background: var(--dark);
+			clip-path: polygon(
+			  0 0,
+			  100% 0,
+			  100% 100%,
+			  0 calc(100% - 5vw));
+		  }
+   .container {
+	    margin: 10px auto;
+			padding: 0 200px;
+		  }
+   header nav .left a {
+        color: var(--pure);
+        text-decoration: none;
+        margin-right: 10px;
+        text-transform: uppercase;
+        transition: all 0.3s ease-in-out;
+        }
+
+    header nav .left a:hover {
+          color: var(--primary);
+          }
+h5 {
+  color: #b8405e;
+}
+
+.hero .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--pure);
+  text-align: end;
+  }
+
+  .hero h1{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  .hero p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 20px
+  }
+  .card-container{
+    display: flex;
+  }
+  .card-container img{
+    width: 150px;
+    height: 150px;
+  }
+  .card {
+    border: 3px solid black;
+    border-color: #b8405e;
+    border-radius: 0.5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgray;
+    box-shadow: 8px 6px 1px 2px var(--dark);
+    transition: 0.4s ease-in-out;
+  }
+  .card:hover{
+    cursor: pointer;
+    background-color: #313552;
+    color: #f0f0f0;
+    box-shadow: 8px 6px 1px 2px var(--tertiary);
+  }
+  .about{
+    padding: 45px;
+    display: flex;
+    text-align: center;
+  }
+  .about img{
+    border: 1px;
+    border-radius: 00.5px;
+    margin: 25px;
+  }
+  .about .social img{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+  }
+  .about h1{
+    color: #b8405e;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .about h4{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+  .about p{
+     color: black;
+     font-size: 15px;
+     font-weight: 300;
+     line-height: 1.5;
+     margin-top: 10px;
+  }
+  .social{
+    margin-top: 10px;
+  }
+
+  
+  
+  
